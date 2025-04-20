@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>LAPORAN TEORI</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style id="styleMode">
+    body {
+      background: linear-gradient(to right, #d2b48c, #f5f5dc);
+      color: #4e342e;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      padding: 40px;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #6d4c41;
+    }
+    .section {
+      margin: 20px 0;
+      padding: 20px;
+      border: 2px solid #a1887f;
+      border-radius: 15px;
+      background-color: #fffaf0;
+      position: relative;
+      box-shadow: 2px 2px 10px rgba(120, 72, 0, 0.1);
+    }
+    .section h3 {
+      color: #5d4037;
+    }
+    .content {
+      margin-top: 10px;
+    }
+    .decor {
+      position: absolute;
+      font-size: 24px;
+      opacity: 0.5;
+    }
+    .decor.left {
+      top: 5px;
+      left: 10px;
+    }
+    .decor.right {
+      bottom: 5px;
+      right: 10px;
+    }
+    .btn-box {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-top: 15px;
+    }
+    #modeToggle {
+      position: fixed;
+      top: 10px;
+      right: 10px;
+      z-index: 1000;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>LAPORAN TEORI</h1>
+    <h2>NEISYA ADILA FARADISA | 202332036</h2>
+
+    <button id="modeToggle" class="btn btn-dark">Tampilan Berantakan</button>
+
+    <div class="section">
+      <div class="decor left">❤</div>
+      <div class="decor right">★</div>
+      <h3>Mengapa menggunakan CSS dan JavaScript dalam pemrograman web?</h3>
+      <div class="content">
+        <p>Karena CSS dan JavaScript memiliki fungsi dan kegunaannya masing-masing yang membantu pemrograman web menjadi tampilan yang lebih menarik. CSS sendiri digunakan untuk mengatur tampilan dan halaman web seperti mengubah warna, ukuran, tata letak, jenis font, dll. Sedangkan JavaScript digunakan untuk membuat halaman web menjadi lebih hidup seperti menambahkan slide gambar, efek animasi, merespon pengguna secara real-time.</p>
+      </div>
+      <div class="btn-box">
+        <span>Apakah anda ingin menyembunyikan ini?</span>
+        <button class="btn btn-outline-danger" onclick="toggleContent(this)">Sembunyikan</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="decor left">★</div>
+      <div class="decor right">❤</div>
+      <h3>Bagaimana CSS dan JavaScript dapat diintegrasikan dalam pemrograman web?</h3>
+      <div class="content">
+        <p>CSS dan JavaScript bisa diintegrasikan dengan menambahkan tag <code>&lt;style&gt;</code> di header untuk menambahkan CSS dan menambahkan tag <code>&lt;script&gt;</code> di body halaman untuk menambahkan JavaScript.</p>
+      </div>
+      <div class="btn-box">
+        <span>Apakah anda ingin menyembunyikan ini?</span>
+        <button class="btn btn-outline-danger" onclick="toggleContent(this)">Sembunyikan</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="decor left">❤</div>
+      <div class="decor right">★</div>
+      <h3>Jelaskan apa saja keuntungan menggunakan JavaScript dan CSS?</h3>
+      <div class="content">
+        <ul>
+          <li>Meningkatkan halaman pengguna</li>
+          <li>Membuat elemen interaktif</li>
+          <li>Membuat situs web responsif</li>
+          <li>Memperbarui konten secara dinamis</li>
+          <li>Membuat antarmuka yang memukau</li>
+        </ul>
+      </div>
+      <div class="btn-box">
+        <span>Apakah anda ingin menyembunyikan ini?</span>
+        <button class="btn btn-outline-danger" onclick="toggleContent(this)">Sembunyikan</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="decor left">★</div>
+      <div class="decor right">❤</div>
+      <h3>Jelaskan apa saja keuntungan menggunakan Bootstrap?</h3>
+      <div class="content">
+        <ul>
+          <li>Mudah digunakan</li>
+          <li>Desain responsif</li>
+          <li>Pengembangan yang lebih cepat</li>
+          <li>Mendukung kustomisasi</li>
+          <li>Konsistensi terjaga</li>
+          <li>Koleksi template dan tema bervariasi</li>
+          <li>Integrasi mudah</li>
+        </ul>
+      </div>
+      <div class="btn-box">
+        <span>Apakah anda ingin menyembunyikan ini?</span>
+        <button class="btn btn-outline-danger" onclick="toggleContent(this)">Sembunyikan</button>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="decor left">❤</div>
+      <div class="decor right">★</div>
+      <h3>Berikan salah satu contoh penggunaan Bootstrap lalu jelaskan apa fungsinya serta berikan screenshot hasil running di web-nya!</h3>
+      <div class="content">
+        <p>Berikut salah satu penggunaan Bootstrap-nya:</p>
+        <pre><code>&lt;div class="container"&gt;/div&gt;</code></pre>
+        <p><strong>Fungsi:</strong> Container ini berfungsi membuat tata letak halaman web menjadi lebih rapih, dan tampilannya menyesuaikan ukuran layar/device secara otomatis. Berikut tampilan web nya di hp dan laptop. </p>
+        <div class="row">
+          <div class="col-md-6 text-center">
+            <p>Tampilan di HP:</p>
+            <img src="hp.jpg" alt="Tampilan di HP" class="img-fluid rounded border">
+          </div>
+          <div class="col-md-6 text-center">
+            <p>Tampilan di Laptop:</p>
+            <img src="laptop.png" alt="Tampilan di Laptop" class="img-fluid rounded border">
+          </div>
+        </div>
+      </div>
+      <div class="btn-box">
+        <span>Apakah anda ingin menyembunyikan ini?</span>
+        <button class="btn btn-outline-danger" onclick="toggleContent(this)">Sembunyikan</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    function toggleContent(button) {
+      const content = button.closest(".section").querySelector(".content");
+      if (content.style.display === "none") {
+        content.style.display = "block";
+        button.textContent = "Sembunyikan";
+      } else {
+        content.style.display = "none";
+        button.textContent = "Tampilkan";
+      }
+    }
+
+    const modeToggle = document.getElementById("modeToggle");
+    const styleTag = document.getElementById("styleMode");
+    let isClean = true;
+
+    modeToggle.addEventListener("click", () => {
+      if (isClean) {
+        styleTag.innerHTML = `
+          body {
+            background-color: yellow;
+            color: red;
+            font-family: Comic Sans MS, cursive;
+            padding: 50px;
+          }
+          h1, h2 {
+            text-align: left;
+            text-decoration: underline wavy blue;
+          }
+          .section {
+            background-color: lime;
+            border: 5px dashed magenta;
+            margin: 40px;
+            padding: 20px;
+            font-size: 20px;
+          }
+          button {
+            background-color: purple;
+            color: yellow;
+            font-weight: bold;
+          }
+        `;
+        modeToggle.textContent = "Tampilan Rapi";
+      } else {
+        location.reload();
+      }
+      isClean = !isClean;
+    });
+  </script>
+</body>
+</html>
